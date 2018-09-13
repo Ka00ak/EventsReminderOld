@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_notifications">
+
+        <SwitchPreference
+            android:title="@string/pref_notifications_is"
+            android:summary="@string/pref_notifications_is_summary_true"
+            android:key="isNotification"
+            android:defaultValue="true" />
+
+        <com.kaooak.android.eventsreminder.preferences.TimePreference
+            android:title="@string/pref_notifications_time"
+            android:summary="@string/pref_notifications_time_summary"
+            android:key="notificationTime"
+            android:dependency="isNotification"
+            android:defaultValue="1200" />
+
+        <SwitchPreference
+            android:title="@string/pref_notifications_is_extra"
+            android:summary="@string/pref_notifications_is_summary_true"
+            android:key="isExpNotification"
+            android:defaultValue="true" />
+
+        <com.kaooak.android.eventsreminder.preferences.NumberPreference
+            android:title="@string/pref_notifications_days"
+            android:summary="@string/pref_notifications_days_summary"
+            android:key="expNotificationDays"
+            android:dependency="isExpNotification"
+            android:defaultValue="2" />
+
+        <com.kaooak.android.eventsreminder.preferences.TimePreference
+            android:title="@string/pref_notifications_time_extra"
+            android:summary="@string/pref_notifications_time_summary"
+            android:key="expNotificationTime"
+            android:dependency="isExpNotification"
+            android:defaultValue="1200" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Напоминания</string>
+
+    //
+    <string name="drawer_menu_events">Все события</string>
+    <string name="drawer_menu_bdays">Дни рождения</string>
+    <string name="drawer_menu_weddings">Свадьбы</string>
+    <string name="drawer_menu_settings">Настройки</string>
+    <string name="menu_search">Поиск</string>
+    <string name="context_delete">Удалить событие</string>
+
+    //
+    <string name="text_category">Категория</string>
+    <string-array name="categories">
+        <item>День рождения</item>
+        <item>Свадьба</item>
+    </string-array>
+    <string name="text_date">Дата</string>
+
+    <string name="text_bday_name">Имя именинника</string>
+    <string name="text_bday_gift">Подарок имениннику</string>
+
+    <string name="text_wedding_name_one">Имя жениха</string>
+    <string name="text_wedding_name_two">Имя невесты</string>
+    <string name="text_wedding_gift">Подарок семье</string>
+
+    //
+    <string name="pref_notifications">Уведомления</string>
+    <string name="pref_notifications_is">Уведомления о событиях</string>
+    <string name="pref_notifications_is_extra">Предварительные уведомления</string>
+    <string name="pref_notifications_is_summary_true">Вкл.</string>
+    <string name="pref_notifications_is_summary_false">Выкл.</string>
+    <string name="pref_notifications_time">Время уведомлений</string>
+    <string name="pref_notifications_time_extra">Время предварительных уведомлений</string>
+    <string name="pref_notifications_time_summary">%1$s</string>
+    <string name="pref_notifications_days">Предварительные уведомления за</string>
+    <string name="pref_notifications_days_summary">%1$d дней</string>
+
+    //
+    <string name="notification_text">Осталось %1$d дней до др %2$s!</string>
+    <string name="notification_today_text">Сегодня день рождения у %1$s!</string>
+    <!--<string name="ticker">ticker</string>-->
+    <!--<string name="title">title</string>-->
+    <!--<string name="title_activity_main">MainActivity</string>-->
+    <!--<string name="title_activity_settings_k">Settings</string>-->
+    <!--<string name="search_hidden">Enter a pattern</string>-->
+</resources>

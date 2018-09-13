@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/all"
+              android:title="@string/drawer_menu_events"
+              android:icon="@drawable/ic_all"
+              android:checked="true" />
+        <item android:id="@+id/bdays"
+              android:title="@string/drawer_menu_bdays"
+              android:icon="@drawable/ic_bday"/>
+        <item android:id="@+id/weddings"
+              android:title="@string/drawer_menu_weddings"
+              android:icon="@drawable/ic_wedding"/>
+    </group>
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/preferences"
+              android:title="@string/drawer_menu_settings"
+              android:icon="@drawable/ic_menu_settings" />
+    </group>
+</menu>
